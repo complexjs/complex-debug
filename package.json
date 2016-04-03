@@ -1,0 +1,27 @@
+{
+  "name": "complex-debug",
+  "version": "1.0.0",
+  "description": "Debug GUI for ComplexJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ComplexJS",
+    "WebGL",
+    "Game",
+    "Engine",
+    "DatGui",
+    "Debug"
+  ],
+  "author": "Faebeee",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": ">= x",
+    "gulp-concat": ">= x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faebeee/complex-debug.git"
+  }
+}
