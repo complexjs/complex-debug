@@ -1,6 +1,6 @@
 'use strict';
 
-class DebugComponent extends cxComponent
+class DatGuiComponent extends cxComponent
 {
     constructor()
     {

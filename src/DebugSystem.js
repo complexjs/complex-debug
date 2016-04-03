@@ -13,11 +13,11 @@ class DatGuiSystem extends cxVoidSystem
 
     added(cxEntity)
     {
-        var folder = this.gui.addFolder(cxEntity.name);
-
         if(!cxEntity.hasComponent('cx.debug.datgui.component')){
             return;
         }
+
+        var folder = this.gui.addFolder(cxEntity.name);
 
         for(var i = 0; i < this.config.length; i++){
             var config = this.config[i];
