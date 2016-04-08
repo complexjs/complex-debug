@@ -1,6 +1,6 @@
 {
   "name": "complex-debug",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Debug GUI for ComplexJS",
   "main": "index.js",
   "scripts": {
