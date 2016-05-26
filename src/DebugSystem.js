@@ -1,12 +1,15 @@
 'use strict';
 
+var cxVoidSystem = require('complex-engine-system').cxVoidSystem;
+var Gui = require('dat.gui');
+
 class DatGuiSystem extends cxVoidSystem
 {
     constructor( config )
     {
         super();
         this.tag = "cx.debug.datgui.system";
-        this.gui = new dat.GUI();
+        this.gui = new Gui();
         this.controllers = [];
         this.config = config;
     }
@@ -63,6 +66,6 @@ class DatGuiSystem extends cxVoidSystem
         }
         return object;
     }
-
-
 }
+
+module.exports = DatGuiSystem;

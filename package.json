@@ -1,8 +1,8 @@
 {
   "name": "complex-debug",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "Debug GUI for ComplexJS",
-  "main": "index.js",
+  "main": "Debug.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,8 +17,7 @@
   "author": "Faebeee",
   "license": "ISC",
   "devDependencies": {
-    "gulp": ">= x",
-    "gulp-concat": ">= x"
+      "dat.gui" : "^0.5"
   },
   "repository": {
     "type": "git",

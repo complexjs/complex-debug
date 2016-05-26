@@ -1,5 +1,7 @@
 'use strict';
 
+var cxComponent = require('complex-engine-component');
+
 class DatGuiComponent extends cxComponent
 {
     constructor()
@@ -9,3 +11,5 @@ class DatGuiComponent extends cxComponent
         this.wireFrame = false;
     }
 }
+
+module.exports = DatGuiComponent;
