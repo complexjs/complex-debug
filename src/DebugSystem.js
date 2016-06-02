@@ -3,12 +3,12 @@
 var cxVoidSystem = require('complex-engine-system').cxVoidSystem;
 var Gui = require('dat.gui');
 
-class DatGuiSystem extends cxVoidSystem
+class cxDebugSystem extends cxVoidSystem
 {
     constructor( config )
     {
         super();
-        this.tag = "cx.debug.datgui.system";
+        this.tag = "cx.debug.system";
         this.gui = new Gui();
         this.controllers = [];
         this.config = config;
@@ -16,7 +16,7 @@ class DatGuiSystem extends cxVoidSystem
 
     added(cxEntity)
     {
-        if(!cxEntity.hasComponent('cx.debug.datgui.component')){
+        if(!cxEntity.hasComponent('cx.debug.component')){
             return;
         }
 
@@ -68,4 +68,4 @@ class DatGuiSystem extends cxVoidSystem
     }
 }
 
-module.exports = DatGuiSystem;
+module.exports = cxDebugSystem;
